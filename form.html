@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body><I></I>
+<body bgcolor = "crimson" >
+<font color="black" >
+<body style="font-family:Arial;
+text-transform:uppercase;
+font-size:20px;
+text-align:left;
+ font-style: italic;
+ padding-top:10px ;
+  padding-right:20px ;
+  padding-bottom:12px ;
+  padding-left:22px ;">
+<fieldset><legend>Your Details</legend>
+<form name = "Student" action = "Student.jsp" method = "get">
+<label>Name</label>
+<Input type = "text" name = "your name" placeholder = " "><br>
+<label>Email</label>
+<Input type = "email" name = "email" placeholder = " "><br>
+<label>Password</label>
+<input type="password" name="password" placeholder=" ">
+</form>
+</fieldset><br>
+<fieldset><legend>Your Review</legend>
+<label>How did you hear about us ?</label>
+<select>
+<option value = "Google"> Google</option>
+<option value = "College"> College</option>
+<option value = "Others"> Others</option>
+</select>
+<br><br>
+<label>Would you visit again? </label><br>
+<Input type = "radio" name = "choice" value="Yes">Yes
+<Input type ="radio" name = "choice" value="No">No
+<Input type ="radio" name = "choice" value="Maybe">Maybe
+<br><br>
+<label>Course Interested in:</label>
+<input type="checkbox" name="Course1" value="Java">Java
+<input type="checkbox" name="Course2" value="DS">DS
+<input type="checkbox" name="Course3" value="DBMS">DBMS
+<input type="checkbox" name="Course4" value="AJP">AJP
+<input type="checkbox" name="Course5" value="AI">AI<br>
+<label>Comments:<br></label>
+<textArea cols="25" rows="10"></textArea>
+<br><br>
+<Input type = "checkbox" name = "check" value="Sign me up for email updates">Sign me up for email updates
+<br><br>
+<Input type = "Submit" name = "Register" value="Submit review">
+</fieldset>
+</body>
+</html>
