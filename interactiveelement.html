@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The getElementById() Function</title>
+    <script>
+      function changetextColor(){
+        let labelElement = document.getElementById('label');
+
+        labelElement.style.color = 'red';
+      }
+    </script>
+  </head>
+  <body>
+    <p id="label">
+      Nothing is true, Everything is permitted.
+    </p>
+    <button onclick="changetextColor();">
+      Button to change color!
+    </button>
+  </body>
+</html>
